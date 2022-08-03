@@ -1,0 +1,77 @@
+body {
+	background-color: rgb(230, 230, 230);
+	color: rgb(60, 60, 60);
+	font-family: 'PT Serif', serif;
+	font-size: 16px;
+}
+
+h2, a {
+	font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+	color: #aaa828;
+    font-size: 28px;
+}
+
+a {
+	text-decoration: none;
+	color: #aaa828;
+	font-weight: 900;
+}
+
+a:hover {
+	color: #0A2540;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.container h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.banner p {
+  color: #0A2540;
+  font-size: 30px;
+}
+
+.container {
+	width: 700px;
+	margin: 50px auto;
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width:  768px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 576px) {
+	.container {
+		width: 300px;
+	}
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #9c9a9a;
+  font-weight: lighter;
+  font-size: 20px;
+  font-style: italic;
